@@ -1,0 +1,97 @@
+@import url('http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "karla", 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+#container{
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: 50px auto;
+    padding-top: 70px;
+}
+
+#generate{
+    color: white;
+    font-size: 40px;
+    padding-left: 80px;
+    font-weight: 800;
+    line-height: 30px;
+
+}
+#random{
+    color: #10B981;
+    font-size: 40px;
+    padding-left: 80px;
+    font-weight: 800;
+    
+
+}
+#never{
+    color: #D5D4D8;
+    padding-left: 80px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #10B981;
+    color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    padding: 8px 0 8px 15px;
+    width: 210px;
+    font-size: 16px;
+    border: none;
+}
+img{
+    position: relative;
+    left: 94px;
+    top: 3px;
+}
+
+button:hover{
+background-color: #444;
+}
+
+hr{
+    border: 1px solid #2F3E53;
+    margin: 0 80px;
+}
+
+.password{
+    background-color: #273549;
+    border-radius: 6px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    color: #10B981;
+    padding: 20px;
+
+}
+#first-password,
+#third-password{
+    margin: 0 35px 30px 80px;
+
+}
+
+#passwords{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
